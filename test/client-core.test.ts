@@ -7,7 +7,7 @@ import {
   parseWebhookEvent,
   verifyWebhookPayload,
 } from '../src';
-import type { FetchRequestInput } from '../src/core/http-client.js';
+import type { FetchRequestInput } from '../src';
 
 function createJsonResponse(body: unknown, init: ResponseInit = {}): Response {
   return new Response(JSON.stringify(body), {
