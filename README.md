@@ -1,5 +1,7 @@
 # @biggora/paysera
 
+[![Unit Tests](https://github.com/biggora/paysera/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/biggora/paysera/actions/workflows/unit-tests.yml)
+
 TypeScript SDK and NestJS adapter for Paysera Checkout V3.
 
 ## Install
