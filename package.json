@@ -1,0 +1,87 @@
+{
+  "name": "@biggora/paysera",
+  "version": "1.0.0",
+  "description": "TypeScript SDK and NestJS adapter for Paysera Checkout V3 API.",
+  "keywords": [
+    "paysera",
+    "payments",
+    "payment-gateway",
+    "payment-api",
+    "sdk",
+    "api-client",
+    "typescript",
+    "nodejs",
+    "nestjs",
+    "ecommerce"
+  ],
+  "homepage": "https://github.com/biggora/paysera#readme",
+  "bugs": {
+    "url": "https://github.com/biggora/paysera/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biggora/paysera.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "nestjs": [
+        "dist/nest/index.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./nestjs": {
+      "types": "./dist/nest/index.d.ts",
+      "import": "./dist/nest/index.js",
+      "require": "./dist/nest/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "nestjs.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^11.0.11",
+    "@nestjs/core": "^11.0.11",
+    "@nestjs/platform-express": "^11.0.11",
+    "@nestjs/testing": "^11.0.11",
+    "@types/express": "^5.0.1",
+    "@types/node": "^24.2.0",
+    "@types/supertest": "^6.0.3",
+    "express": "^5.1.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "supertest": "^7.1.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
