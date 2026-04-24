@@ -6,7 +6,7 @@ import {
   createPayseraClient,
   parseWebhookEvent,
   verifyWebhookPayload,
-} from '../src/index.js';
+} from '../src';
 import type { FetchRequestInput } from '../src/core/http-client.js';
 
 function createJsonResponse(body: unknown, init: ResponseInit = {}): Response {

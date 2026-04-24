@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
-import { createPayseraClient } from '../src/index.js';
-import type { FetchRequestInput } from '../src/core/http-client.js';
+import { createPayseraClient } from '../src';
+import type { FetchRequestInput } from '../src';
 
 describe('Paysera resource routing', () => {
   it('routes Checkout V3 resources to stable resource paths', async () => {

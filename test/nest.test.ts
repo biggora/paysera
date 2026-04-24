@@ -9,13 +9,13 @@ import type { Request } from 'express';
 import request from 'supertest';
 import { describe, expect, it } from 'vitest';
 
-import type { PayseraClient } from '../src/index.js';
+import type { PayseraClient } from '../src';
 import {
   InjectPayseraClient,
   PAYSERA_CLIENT,
   PayseraModule,
   PayseraWebhookVerifier,
-} from '../src/nest/index.js';
+} from '../src/nest';
 
 class DirectInjectService {
   constructor(@Inject(PAYSERA_CLIENT) readonly client: PayseraClient) {}
