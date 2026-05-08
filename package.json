@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/biggora/paysera.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "type": "module",
   "main": "./dist/index.cjs",
