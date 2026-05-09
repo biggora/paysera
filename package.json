@@ -23,6 +23,10 @@
     "url": "git+https://github.com/biggora/paysera.git"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npmjs.org"
+  },
   "author": "",
   "type": "module",
   "main": "./dist/index.cjs",
