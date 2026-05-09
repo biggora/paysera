@@ -1,6 +1,6 @@
 {
   "name": "@biggora/paysera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript SDK and NestJS adapter for Paysera Checkout V3 API.",
   "keywords": [
     "paysera",
