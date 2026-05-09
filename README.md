@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@biggora/paysera.svg)](https://www.npmjs.com/package/@biggora/paysera)
 [![Unit Tests](https://github.com/biggora/paysera/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/biggora/paysera/actions/workflows/unit-tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 TypeScript SDK and NestJS adapter for Paysera Checkout V3.
 
