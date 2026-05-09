@@ -1,6 +1,6 @@
 {
   "name": "@biggora/paysera",
-  "version": "1.0.1",
+  "version": "1.0.2-oidc-test.0",
   "description": "TypeScript SDK and NestJS adapter for Paysera Checkout V3 API.",
   "keywords": [
     "paysera",
@@ -24,8 +24,7 @@
   },
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npmjs.org"
+    "access": "public"
   },
   "author": "",
   "type": "module",
