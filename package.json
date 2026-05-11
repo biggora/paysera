@@ -5,6 +5,9 @@
   "keywords": [
     "paysera",
     "payments",
+    "checkout",
+    "webhooks",
+    "refunds",
     "payment-gateway",
     "payment-api",
     "sdk",
